@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="name">Nombre <xliff:g id="name" example="Amy"></xliff:g></string>
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="toppings">Ingredientes</string>
+
+    <string name="whippedCream">Crema batida</string>
+
+    <string name="chocolate">Chocolate</string>
+
+    <string name="quantity" translatable="true">Quantity</string>
+
+    <string name="initial_quantity_value" translatable="true">2</string>
+
+    <string name="order">Ordenar</string>
+
+    <!--
+  Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the
+  user's name. [CHAR LIMIT=NONE]
+-->
+    <string name="order_summary_name">Nombre <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+    <string name="order_summary_whipped_cream">Agregue la crema batida? <xliff:g id="addWhippedCream" example="true"></xliff:g></string>
+
+    <string name="order_summary_chocolate">Agregue la chocolate? <xliff:g id="addChocolate" example="true"></xliff:g></string>
+
+    <string name="order_summary_quantity" translatable="true">Cantidad: <xliff:g id="quantity" example="2"></xliff:g></string>
+
+    <string name="order_summary_price" translatable="true">Total: <xliff:g id="price" example="$10">%s</xliff:g></string>
+
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="thank_you" translatable="true">Gracias!</string>
+
+    <string name="order_summary_email_subject">Solo Java Por</string>
+
+</resources>
